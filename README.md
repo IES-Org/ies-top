@@ -1,22 +1,22 @@
-# IES [INSERT-NAME-HERE] Ontology
+# IES Top Level Ontology (ToLO)
 
 ![IES Logo](assets/images/IES-logo-dark.png)
 
-**Repository:** `IES [INSERT-NAME-HERE] Ontology`
-**Description:** `This repository contains the development artifacts for the IES [INSERT-NAME-HERE] ontology. It follows the standard IES ontology development repository structure and incorporates shared IES tools and GitHub workflows.`  
+**Repository:** `IES Top Level Ontology (ToLO)`
+**Description:** `This repository contains the development artifacts for the IES Top Level ontology. It follows the standard IES ontology development repository structure and incorporates shared IES tools and GitHub workflows.`  
 **Repository Status:** `Private – NDTP InnerSource`  
 
 ---
 
 ## Overview
 
-This repository is part of the **National Digital Twin Programme (NDTP)**. It supports the development of secure, modular, and standards-based ontologies for internal use across NDTP projects.
+This repository is part of the **[INSERT-PROJECT/PROGRAMME-HERE**. It supports the development of secure, modular, and standards-based ontologies for internal use across NDTP projects.
 
 > **This repository is private and governed by the NDTP InnerSource Licence – Version 1.0.**  
 > It is intended solely for collaboration among NDTP teams and authorised suppliers.  
 > It is **not open source** and must not be disclosed, redistributed, or published externally.
 
-This repository contains the development artifacts for the IES [INSERT-NAME-HERE] ontology. It follows the standard IES ontology development repository structure and incorporates shared IES tools and GitHub workflows.
+This repository contains the development artifacts for the IES Top Level Ontology. It follows the standard IES ontology development repository structure and incorporates shared IES tools and GitHub workflows.
 
 --- 
 
