@@ -54,7 +54,7 @@ GOV.UK Pay aims to stay secure for everyone. If you are a security researcher an
 [copyright]: https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/
 [docs-contrib]: docs/CONTRIBUTING.md
 [gh-readme]: .github/github-README.md
-[license]: LICENSE.md
+[license]: LICENSE
 [sec]: https://vdp.cabinetoffice.gov.uk/.well-known/security.txt
 [VERSION]: VERSION
 [vul]: https://www.gov.uk/help/report-vulnerability
