@@ -14,6 +14,7 @@ This repository is part of the IES GitHub Organisation, `IES-Org`. It supports t
 
 > **This repository is private and governed by the IES InnerSource Licence – Version 1.0.**  
 > It is intended solely for collaboration among Domain Working Group teams and authorised suppliers.
+> It is not open source and must not be disclosed, redistributed, or published externally.
 
 --- 
 
