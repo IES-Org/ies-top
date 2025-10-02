@@ -8,15 +8,15 @@
 ## Version
 
 **IES InnerSource License – Version 1.0**
-**Issued by:** National Digital Twin Programme (NDTP)
-**Effective Date:** 9 July 2025
+**Issued by:** Information Exchange Standard (IES) Intiative
+**Effective Date:** 2 October 2025
 
 ---
 
 ## Copyright
 
 © Crown Copyright 2025.  
-This work has been developed by UK Government Departments and is legally attributed to those Departments as the governing entity. Please contact the IES Steering Group for further information.
+This work has been developed by the Information Exchange Standard Iniative and is legally attributed to the Crown. Please contact the IES Steering Group for further information.
 
 This repository is **not open source**.  
 Its contents are licensed under the terms of this **IES InnerSource License**, unless and until it is formally published under an approved open source licence by the IES Steering Group.
@@ -40,7 +40,7 @@ It must not be published, distributed, sublicensed, or shared externally without
 
 ## 3. Intellectual Property
 
-All rights, including intellectual property rights in the content and associated materials, are owned by the relevant UK Government Departments.
+All rights, including intellectual property rights in the content and associated materials, are owned by the Crown.
 
 Where contributions are made by suppliers or delivery partners, those contributions are accepted on the basis that **full intellectual property rights** belong to the Crown under the terms of their contract.
 
@@ -50,13 +50,13 @@ Where contributions are made by suppliers or delivery partners, those contributi
 
 You may:
 
-- View, use, and modify the repository content as required to fulfil your responsibilities under the NDTP and IES Steering Group.
+- View, use, and modify the repository content as required to fulfil your responsibilities under your Domain Working Group's Chair and/or Representative.
 - Collaborate within authorised IES Project teams and with approved suppliers under existing contracts.
 
 You may not:
 
 - Share, publish, or release this repository publicly.
-- Fork, clone, or redistribute this code outside approved NDTP and IES Steering Group channels.
+- Fork, clone, or redistribute this code unless permitted in writing by the IES Steering Group.
 - Apply any license other than the IES InnerSource License to this repository or its contents, unless instructed by the IES Steering Group.
 
 ---
@@ -88,7 +88,7 @@ All actions will be escalated to the IES Steering Group for appropriate handling
 For all enquiries regarding licensing, publication status, or contributor rights, please contact:
 
 **IES Steering Group**
-administrator@informationexchangestandard.org
+steering@informationexchangestandard.org
 
 ---
 
