@@ -2,19 +2,15 @@
 
 ![IES Logo](assets/images/IES-logo-dark.png)
 
-**Repository:** `IES Top Level Ontology (ToLO)`
-**Description:** `This repository contains the development artifacts for the IES Top Level ontology.`  
+**Repository:** `IES Top Ontology`
+**Description:** `This repository contains the development artifacts for the IES Top ontology.`  
 **Repository Status:** `Private - IES InnerSource`  
 
 ---
 
 ## Overview
 
-This repository is part of the IES GitHub Organisation, `IES-Org`. It supports the development of secure, modular, and standards-based ontologies for internal use across IES projects.
-
-> **This repository is private and governed by the IES InnerSource Licence – Version 1.0.**  
-> It is intended solely for collaboration among Domain Working Group teams and authorised suppliers.
-> It is not open source and must not be disclosed, redistributed, or published externally.
+This repository contains the development artifacts for the IES Top Ontology.
 
 --- 
 
