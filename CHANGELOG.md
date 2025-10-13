@@ -25,12 +25,10 @@ and this project adheres to [Semantic Versioning][semver].
 ### Security
 - Vulnerability fixes
 
-## [0.1.0] - 2024-12-26
+## [0.1.0] - 2025-10-10
 ### Added
-- Initial ontology structure
-- Basic class hierarchy
-- Property definitions
-- Documentation templates
+- Initial ontology structure in RDF
+- ODM-UML Diagrams and descriptions
 
 [keep-change-log]: https://keepachangelog.com/en/1.0.0/
 [semver]: https://semver.org/spec/v2.0.0.html
