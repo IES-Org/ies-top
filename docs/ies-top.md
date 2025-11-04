@@ -1,16 +1,20 @@
 [back to readme](README.md)
 
 Crown Copyright (c) 2025
-<table>
+<table style="border-collapse: collapse; border: none;">
   <tr>
-	<td><img src="../assets/images/IES-logo-dark.png" alt="IES Logo" width="80"></td>
-	<td><h1>Top</h1></td>
+    <td style="border: none; vertical-align: middle; padding-right: 10px;">
+      <img src="../assets/images/IES-logo-dark.png" alt="IES Logo" width="60">
+    </td>
+    <td style="border: none; vertical-align: middle;">
+      <h1 style="margin: 0;">Top</h1>
+    </td>
   </tr>
 </table>
 
 # ies_top version: 0.1.0 (RC1)
 ## Contents
-* Introduction Diagrams
+* Diagrams
     * [Top Overview](#0f81418a-23a7-4c91-8e35-5864ef60b4d8)
     * [Grounding Relations](#9b8f8584-8708-4253-b4b5-5c8680b8880c)
     * [The Pluriverse](#79a9be26-1ad4-4fa8-946b-e3c95123b551)

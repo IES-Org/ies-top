@@ -1,9 +1,13 @@
 # IES Top Ontology (ies-top)
 
-<table>
+<table style="border-collapse: collapse; border: none;">
   <tr>
-    <td><img src="assets/images/IES-logo-dark.png" alt="IES Logo" width="80"></td>
-    <td><h1>Top</h1></td>
+    <td style="border: none; vertical-align: middle; padding-right: 10px;">
+      <img src="./assets/images/IES-logo-dark.png" alt="IES Logo" width="60">
+    </td>
+    <td style="border: none; vertical-align: middle;">
+      <h1 style="margin: 0;">Top</h1>
+    </td>
   </tr>
 </table>
 
