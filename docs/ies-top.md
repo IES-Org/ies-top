@@ -3,7 +3,7 @@
 Crown Copyright (c) 2025
 <div style="display: flex; align-items: center;">
   <img src="../assets/images/IES-logo-dark.png" alt="IES Logo" width="100" style="vertical-align: middle; margin-right: 10px;">
-<span style="font-size: 1.25em; font-weight: bold; vertical-align: middle;"><h1>Top</h1></span>
+<span style="font-size: 3em; font-weight: bold; vertical-align: middle;">Top</span>
 </div>
 
 # version: 0.1.0 (RC1)
