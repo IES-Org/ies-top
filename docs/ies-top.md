@@ -1,7 +1,7 @@
 [back to readme](README.md)
 
 Crown Copyright (c) 2025
-![Logo](images/ies-logo.png)
+![Logo](../assets/images/ies-logo-dark.png)
 
 # ies_top version: 0.1.0 (RC1)
 ## Contents
