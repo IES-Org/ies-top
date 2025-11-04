@@ -1,7 +1,10 @@
 [back to readme](README.md)
 
 Crown Copyright (c) 2025
-![Logo](../assets/images/IES-logo-dark.png)
+<div style="display: flex; align-items: center;">
+  <img src="../assets/images/IES-logo-dark.png" alt="IES Logo" style="width: 10%; margin-right: 10px;">
+  <h1 style="margin: 0;">Top</h1>
+</div>
 
 # ies_top version: 0.1.0 (RC1)
 ## Contents
