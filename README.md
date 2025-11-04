@@ -1,9 +1,9 @@
 # IES Top Ontology (ies-top)
 
-<span>
+<div style="display: flex; align-items: center;">
   <img src="./assets/images/IES-logo-dark.png" alt="IES Logo" width="100" style="vertical-align: middle; margin-right: 10px;">
-</span>
-<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Top</span>
+<span style="font-size: 1.25em; font-weight: bold; vertical-align: middle;"><h1>Top</h1></span>
+</div>
 
 
 **Repository:** `IES Top Ontology (ies-top)`<br>

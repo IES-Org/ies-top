@@ -1,12 +1,12 @@
 [back to readme](README.md)
 
-Crown Copyright (c) 2025<br>
-<span>
+Crown Copyright (c) 2025
+<div style="display: flex; align-items: center;">
   <img src="../assets/images/IES-logo-dark.png" alt="IES Logo" width="100" style="vertical-align: middle; margin-right: 10px;">
-</span>
-<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Top</span>
+<span style="font-size: 1.25em; font-weight: bold; vertical-align: middle;"><h1>Top</h1></span>
+</div>
 
-# ies_top version: 0.1.0 (RC1)
+# version: 0.1.0 (RC1)
 ## Contents
 * Diagrams
     * [Top Overview](#0f81418a-23a7-4c91-8e35-5864ef60b4d8)
@@ -20,7 +20,7 @@ Crown Copyright (c) 2025<br>
     * [Overlap and Disjoint](#99360175-5578-4956-b9f7-a690495ddb5e)
 * [All Resources](#ies_top)
 ## <a id="0f81418a-23a7-4c91-8e35-5864ef60b4d8"></a>Top Overview
-![Top Overview Diagram](images/UML_ID_0F81418A_23A7_4c91_8E35_5864EF60B4D8.png)
+![Top Overview Diagram](diagrams/UML_ID_0F81418A_23A7_4c91_8E35_5864EF60B4D8.png)
 
 ### IES elements in this diagram:
 
@@ -43,7 +43,7 @@ The equivalent top level of the BORO(TM) Foundational Ontology, has relations he
 
 
 ## <a id="9b8f8584-8708-4253-b4b5-5c8680b8880c"></a>Grounding Relations
-![Grounding Relations Diagram](images/UML_ID_9B8F8584_8708_4253_B4B5_5C8680B8880C.png)
+![Grounding Relations Diagram](diagrams/UML_ID_9B8F8584_8708_4253_B4B5_5C8680B8880C.png)
 
 ### IES elements in this diagram:
 
@@ -65,7 +65,7 @@ Grounding relations are derived from the four basic constructors outlined in the
 The concept of pluralities is found at a higher order than the concepts in RDF/S. As a result, we have had to define RDF/S resources in the context of our top-level. Here you will see that rdf:type, rdfs:subClassOf and rdfs:subPropertyOf are themselves ies_top:groundingRelations.
 
 ## <a id="79a9be26-1ad4-4fa8-946b-e3c95123b551"></a>The Pluriverse
-![The Pluriverse Diagram](images/UML_ID_79A9BE26_1AD4_4fa8_946B_E3C95123B551.png)
+![The Pluriverse Diagram](diagrams/UML_ID_79A9BE26_1AD4_4fa8_946B_E3C95123B551.png)
 
 ### IES elements in this diagram:
 
@@ -93,7 +93,7 @@ In IES, we commit to the pluriverse, which provides the grounding for talk about
 </ul>
 
 ## <a id="7f1f8754-b7ac-453d-b478-307b8c2022a8"></a>Instances and Sets
-![Instances and Sets Diagram](images/UML_ID_7F1F8754_B7AC_453d_B478_307B8C2022A8.png)
+![Instances and Sets Diagram](diagrams/UML_ID_7F1F8754_B7AC_453d_B478_307B8C2022A8.png)
 
 ### IES elements in this diagram:
 
@@ -109,7 +109,7 @@ To realize the need to be able to put elements into sets we use the ubiquitously
 
 
 ## <a id="083953be-b4f9-4bbd-bc03-35f1a092609d"></a>Parts and Wholes
-![Parts and Wholes Diagram](images/UML_ID_083953BE_B4F9_4bbd_BC03_35F1A092609D.png)
+![Parts and Wholes Diagram](diagrams/UML_ID_083953BE_B4F9_4bbd_BC03_35F1A092609D.png)
 
 ### IES elements in this diagram:
 
@@ -134,7 +134,7 @@ For the mereological relations, we make clear distinctions between what spatiote
 </ul>
 
 ## <a id="2bc55488-1f01-42e8-bda0-0d8264279944"></a>Tuples
-![Tuples Diagram](images/UML_ID_2BC55488_1F01_42e8_BDA0_0D8264279944.png)
+![Tuples Diagram](diagrams/UML_ID_2BC55488_1F01_42e8_BDA0_0D8264279944.png)
 
 ### IES elements in this diagram:
 
@@ -158,7 +158,7 @@ For IES4, we avoided higher arity Tuples as the vast majority of what users want
 ies-top provides in its base serialization tuples of up to four places. If users need tuples with more than four places, they should define them within the ies-top namespace, following the established naming conventions shown here for the Tuple classes and the tuple place properties. For example, a seven-place tuple shall have the URI <i>ies_top:SevenPlaceTuple</i>, while the additional tuple places needed shall be defined as <i>ies_top:tuplePlace_5</i>, <i>ies_top:tuplePlace_6</i>, and <i>ies_top:tuplePlace_7</i>.
 
 ## <a id="33ad9371-11c1-4df5-9edc-a2310eaf6cd9"></a>Relationships
-![Relationships Diagram](images/UML_ID_33AD9371_11C1_4df5_9EDC_A2310EAF6CD9.png)
+![Relationships Diagram](diagrams/UML_ID_33AD9371_11C1_4df5_9EDC_A2310EAF6CD9.png)
 
 ### IES elements in this diagram:
 
@@ -181,7 +181,7 @@ Most user-created relationships that are not <i>grounding relations</i> will typ
 
 
 ## <a id="a03d8fc4-5d76-455a-b60e-564bcf235d24"></a>Continuous and Intermittent
-![Continuous and Intermittent Diagram](images/UML_ID_A03D8FC4_5D76_455a_B60E_564BCF235D24.png)
+![Continuous and Intermittent Diagram](diagrams/UML_ID_A03D8FC4_5D76_455a_B60E_564BCF235D24.png)
 
 ### IES elements in this diagram:
 
@@ -199,7 +199,7 @@ Like other spatiotemporal extents, we can identify the start and end times - e.g
 
 
 ## <a id="99360175-5578-4956-b9f7-a690495ddb5e"></a>Overlap and Disjoint
-![Overlap and Disjoint Diagram](images/UML_ID_99360175_5578_4956_B9F7_A690495DDB5E.png)
+![Overlap and Disjoint Diagram](diagrams/UML_ID_99360175_5578_4956_B9F7_A690495DDB5E.png)
 
 ### IES elements in this diagram:
 
@@ -349,12 +349,12 @@ A maximal spatiotemporal connected extent that includes everything in a universe
 ### <a id="1bc7317e-5d13-45ae-938a-3f273b194edc"></a>pluriverse
 An instance of SpatiotemporalExtent which is the sum of all universes (where everything in each universe is part of that universe). Put another way, this has everything in every universe as a part.
 
-### <a id="bbc06281-340f-458f-a057-82193f32c9dd"></a>rdf:type
-
-
 ### <a id="afcfcf17-78ec-4f6c-b62a-c6b3467d880b"></a>rdfs:subClassOf
 
 
 ### <a id="c6d377f7-a413-481e-bb5f-58f4e6f63969"></a>rdfs:subPropertyOf
+
+
+### <a id="bbc06281-340f-458f-a057-82193f32c9dd"></a>rdf:type
 
 
