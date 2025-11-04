@@ -1,5 +1,5 @@
 # Open Government Licence v3.0  
-**Repository:** `IES Top Ontology (ies-top)` 
+**Repository:** `IES Top Ontology (ies-top)`<br>
 **Description:** `Covers all documentation files in this repository that are released under the Open Government Licence v3.0.`  
 <!-- SPDX-License-Identifier: OGL-UK-3.0 -->  
 
