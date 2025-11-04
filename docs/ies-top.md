@@ -1,16 +1,10 @@
 [back to readme](README.md)
 
-Crown Copyright (c) 2025
-<table style="border-collapse: collapse; border: none;">
-  <tr>
-    <td style="border: none; vertical-align: middle; padding-right: 10px;">
-      <img src="../assets/images/IES-logo-dark.png" alt="IES Logo" width="60">
-    </td>
-    <td style="border: none; vertical-align: middle;">
-      <h1 style="margin: 0;">Top</h1>
-    </td>
-  </tr>
-</table>
+Crown Copyright (c) 2025<br>
+<span>
+  <img src="../assets/images/IES-logo-dark.png" alt="IES Logo" width="100" style="vertical-align: middle; margin-right: 10px;">
+</span>
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Top</span>
 
 # ies_top version: 0.1.0 (RC1)
 ## Contents
