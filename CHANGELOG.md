@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning][semver].
 
 [keep-change-log]: https://keepachangelog.com/en/1.0.0/
 [semver]: https://semver.org/spec/v2.0.0.html
-[0.1.0]: https://github.com/IES-Org/repository/releases/tag/v0.1.0
+[0.1.0]: https://github.com/IES-Org/ies-top/releases/tag/v0.1.0
