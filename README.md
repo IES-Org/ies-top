@@ -1,10 +1,6 @@
 # IES Top Ontology (ies-top)
 
-<div style="display: flex; align-items: center;">
-  <img src="./assets/images/IES-logo-dark.png" alt="IES Logo" width="100" style="vertical-align: middle; margin-right: 10px;">
-<span style="font-size: 1.25em; font-weight: bold; vertical-align: middle;"><h1>Top</h1></span>
-</div>
-
+# <img src="./assets/images/IES-logo-dark.png" alt="IES Logo" width="50" align="absmiddle"> Top
 
 **Repository:** `IES Top Ontology (ies-top)`<br>
 **Description:** `A top level ontology grounded in Extensional Four-Dimensionalism`<br>
