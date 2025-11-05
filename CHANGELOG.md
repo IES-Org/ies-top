@@ -1,5 +1,3 @@
-**Note this file is a template and should be updated with the actual content**
-
 # Changelog
 All notable changes to this project will be documented in this file.
 
