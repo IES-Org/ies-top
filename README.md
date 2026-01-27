@@ -14,6 +14,7 @@ Important artefacts include:
 - [Briefing pack (start here)](./docs/IES_Top_and_Core_Release_Candidate_1-Briefing_Pack_v1.0.pdf)
 - [RDF serialisation of the ontology](./spec/ies-top.ttl)
 - [Accompanying documentation](./docs/ies-top.md)
+- [A document detailing the conceptual foundations of ies-top](./docs/IES_ToLO_Report.pdf)
 
 ### References
 
