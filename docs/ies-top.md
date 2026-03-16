@@ -1,8 +1,6 @@
-![IES Logo](./assets/images/IES-logo-dark.png)
+![IES Logo](../../assets/images/IES-logo-dark.png)
 
 # IES Top Ontology
-
-**Version:** 0.1.0 (RC1)
 
 The **Information Exchange Standard (IES) Top Ontology** is a standardized ontology designed for enterprise-level information exchange. This documentation provides comprehensive guidance for understanding and using the IES Top Ontology.
 
@@ -56,17 +54,14 @@ The equivalent top level of the BORO(TM) Foundational Ontology, has relations he
 * [tuplePlace](#e0c16b56-3271-444b-8f2f-01756c2dde60)
 * [partWhole](#ced45081-fc65-43bf-a953-25232ef7820b)
 
-Grounding relations are derived from the four basic constructors outlined in the `<a href="https://borosolutions.net/core-constructional-ontology"><font color="#0000ff">``<u>`Core Constructional Ontology `</u></font>``</a>`. They are:
+Grounding relations are derived from the four basic constructors outlined in the [Core Constructional Ontology](https://borosolutions.net/core-constructional-ontology). They are:
 
-<ul>
-	<li>type (Element-Set)</li>
-	<li>subSuperRelation (Subset-Superset)</li>
-	<li>partWhole (Part-Whole)</li>
-	<li>tuplePlace (Tuple Place)</li>
-</ul>
-<font color="#ff0000">
-</font>Note: In the Core Constructional Ontology, the term 'element' is used for the role in the Element-Set relationship. In ies-top we refer to this as 'member' i.e. Member-Set.
-The concept of pluralities is found at a higher order than the concepts in RDF/S. As a result, we have had to define RDF/S resources in the context of our top-level. Here you will see that rdf:type, rdfs:subClassOf and rdfs:subPropertyOf are themselves ies_top:groundingRelations.
+- **type** (Element-Set)
+- **subSuperRelation** (Subset-Superset)
+- **partWhole** (Part-Whole)
+- **tuplePlace** (Tuple Place)
+
+> **Note**: In the Core Constructional Ontology, the term 'element' is used for the role in the Element-Set relationship. In ies-top we refer to this as 'member' i.e. Member-Set. The concept of pluralities is found at a higher order than the concepts in RDF/S. As a result, we have had to define RDF/S resources in the context of our top-level. Here you will see that `rdf:type`, `rdfs:subClassOf` and `rdfs:subPropertyOf` are themselves `ies_top:groundingRelations`.
 
 ## <a id="79a9be26-1ad4-4fa8-946b-e3c95123b551"></a>The Pluriverse
 
@@ -82,21 +77,11 @@ The concept of pluralities is found at a higher order than the concepts in RDF/S
 
 In IES, we commit to the pluriverse, which provides the grounding for talk about possibilities (using universes) we need to make clear distinctions between elements that can be trans-universe (part of more than one universe) and the ones we do most of our work with, those that are universe-bound (part of one and only one universe).
 
-<ul>
-	<li><b>pluriverse </b>- An instance of SpatiotemporalExtent which is the sum of all universes (where everything in each universe is part of that universe). Put another way, this has everything in every universe as a part.</li>
-</ul>
-<ul>
-	<li><b>State </b>- an spatiotemporal extent that is universe-bound i.e. an spatiotemporal extent which is part of one and only one universe.</li>
-</ul>
-<ul>
-	<li><b>Timespan</b> - a state (i.e. universe-bound spatiotemporal extent) that is a temporal part of a world. Note: a universe is an improper temporal part of itself - and so a maximal timespan.</li>
-</ul>
-<ul>
-	<li><b>Period</b> - a connected and uninterrupted timespan.</li>
-</ul>
-<ul>
-	<li><b>Universe</b> - a maximal spatiotemporal connected extent that includes everything in a universe, irrespective of any indexing, such as whether it is present now, in the past, or in the future.</li>
-</ul>
+- **Pluriverse** – An instance of `SpatiotemporalExtent` which is the sum of all universes (where everything in each universe is part of that universe). Put another way, this has everything in every universe as a part.
+- **State** – a spatiotemporal extent that is universe-bound i.e. a spatiotemporal extent which is part of one and only one universe.
+- **Timespan** – a state (i.e. universe-bound spatiotemporal extent) that is a temporal part of a world. Note: a universe is an improper temporal part of itself - and so a maximal timespan.
+- **Period** – a connected and uninterrupted timespan.
+- **Universe** – a maximal spatiotemporal connected extent that includes everything in a universe, irrespective of any indexing, such as whether it is present now, in the past, or in the future.
 
 ## <a id="7f1f8754-b7ac-453d-b478-307b8c2022a8"></a>Instances and Sets
 
@@ -112,7 +97,7 @@ In IES, we commit to the pluriverse, which provides the grounding for talk about
 * [SetOfSpatiotemporalExtents](#0c4a5ca9-a706-4653-ab55-69d2fcab0d23)
 * [SetOfSetOfSpatiotemporalExtents](#33a6e9f9-54b5-4045-8733-ce821d972c6f)
 
-To realize the need to be able to put elements into sets we use the ubiquitously used rdf:type. This is the same approach as in IES4. powertype also carries over from IES4.
+To realize the need to be able to put elements into sets we use the ubiquitously used `rdf:type`. This is the same approach as in IES4. `powertype` also carries over from IES4.
 
 ## <a id="083953be-b4f9-4bbd-bc03-35f1a092609d"></a>Parts and Wholes
 
@@ -133,13 +118,11 @@ To realize the need to be able to put elements into sets we use the ubiquitously
 
 For the mereological relations, we make clear distinctions between what spatiotemporal extents are universe-bound and which are not. An additional distinction is made here for mereologies between spatiotemporal extents in the same universe (universe-mates).
 
-<ul>
-	<li><b>partWhole</b> - a grounding relation placing one spatiotemporal extent as part of another (the whole).</li>
-	<li><b>isPartOf</b> - a partWhole relation between two states, where both states are bound to the same universe (universe-mates).</li>
-	<li><b>isTemporalPartOf</b> - an isPartOf that asserts the spatial extent of the (whole) state is co-extensive with the spatial extent of the (part) state for a particular period of time.</li>
-	<li><b>isAStartOf</b> - an isTemporalPartOf that places a state as one (but not always the only) temporal part at the beginning of another.</li>
-	<li><b>isAFinishOf</b> - an isTemporalPartOf that places a state as one (but not always the only) temporal part at the conclusion of another.</li>
-</ul>
+- **partWhole** – a grounding relation placing one spatiotemporal extent as part of another (the whole).
+- **isPartOf** – a partWhole relation between two states, where both states are bound to the same universe (universe-mates).
+- **isTemporalPartOf** – an isPartOf that asserts the spatial extent of the (whole) state is co-extensive with the spatial extent of the (part) state for a particular period of time.
+- **isAStartOf** – an isTemporalPartOf that places a state as one (but not always the only) temporal part at the beginning of another.
+- **isAFinishOf** – an isTemporalPartOf that places a state as one (but not always the only) temporal part at the conclusion of another.
 
 ## <a id="2bc55488-1f01-42e8-bda0-0d8264279944"></a>Tuples
 
@@ -158,13 +141,13 @@ For the mereological relations, we make clear distinctions between what spatiote
 * [tuplePlace_3](#e719f16e-ec6b-47bb-848d-16544e31316c)
 * [couple](#85feafd9-50a0-42ea-9cc7-8dc7b055f47b)
 
-A  tuple is a sequence of two or more things. Each part of a tuple is identified by a `<i>`tuplePlace.`</i>`
-E.g. for the tuples that are members of `<i>`Father-Son Tuples, `</i>`you recover the father-son relations by knowing that `<i>` `</i>`the first tuple place is for the father and the second for the son:
-&lt;father_1, son_1&gt;
-Another example is the tuples that are members of the `<i>`Between Tuples `</i>`:
-&lt;endpoint_1, midpoint_x, endpoint_2&gt;
+A tuple is a sequence of two or more things. Each part of a tuple is identified by a `tuplePlace`.
+E.g. for the tuples that are members of `Father-Son Tuples`, you recover the father-son relations by knowing that the first tuple place is for the father and the second for the son:
+`<father_1, son_1>`.
+Another example is the tuples that are members of the `Between Tuples`:
+`<endpoint_1, midpoint_x, endpoint_2>.`
 For IES4, we avoided higher arity Tuples as the vast majority of what users want to articulate are two-placed tuples aka. Couples. Couples were realised using simple RDF properties and this will be the same in ies-top. However, in ies-top we want to have a solid and complete top-level and that means having tuples that are beyond 2 places. As a result, we will support 2-placed tuples using the user-friendly RDF properties and beyond-2 placed tuples using the RDF N-ary approach.
-ies-top provides in its base serialization tuples of up to four places. If users need tuples with more than four places, they should define them within the ies-top namespace, following the established naming conventions shown here for the Tuple classes and the tuple place properties. For example, a seven-place tuple shall have the URI `<i>`ies_top:SevenPlaceTuple `</i>`, while the additional tuple places needed shall be defined as `<i>`ies_top:tuplePlace_5 `</i>`, `<i>`ies_top:tuplePlace_6 `</i>`, and `<i>`ies_top:tuplePlace_7 `</i>`.
+ies-top provides in its base serialization tuples of up to four places. If users need tuples with more than four places, they should define them within the ies-top namespace, following the established naming conventions shown here for the Tuple classes and the tuple place properties. For example, a seven-place tuple shall have the URI `ies_top:SevenPlaceTuple`, while the additional tuple places needed shall be defined as `ies_top:tuplePlace_5`, `ies_top:tuplePlace_6`, and `ies_top:tuplePlace_7`.
 
 ## <a id="33ad9371-11c1-4df5-9edc-a2310eaf6cd9"></a>Relationships
 
@@ -186,7 +169,7 @@ ies-top provides in its base serialization tuples of up to four places. If users
 
 A relation between two things in IES, is a two-placed tuple aka. a couple. Couples are implemented as simple RDF properties.
 Like the mereological relations, we again make clear distinctions between the relationships of spatiotemporal extents that are universe-bound and which are not. Moreover, which relationships are between spatiotemporal extents in the same universe (universe-mates).
-Most user-created relationships that are not `<i>`grounding relations `</i>` will typically be either `<b>`relationshipBetweenUniverseMates `</b>` or `<b>`couples `</b>`. `<i>`Couples `</i>` are utilized for relationships between spatiotemporal extents and sets, or between two sets.
+Most user-created relationships that are not `grounding relations` will typically be either `relationshipBetweenUniverseMates` or `couples`. `Couples` are utilized for relationships between spatiotemporal extents and sets, or between two sets.
 
 ## <a id="a03d8fc4-5d76-455a-b60e-564bcf235d24"></a>Continuous and Intermittent
 
@@ -202,8 +185,8 @@ Most user-created relationships that are not `<i>`grounding relations `</i>` wil
 * [IntermittentTimespan](#ed41858d-a919-4e57-9c60-e2333556c826)
 * [Universe](#6dc85ae1-ca5e-4fd1-8b67-afd244d1d01d)
 
-There are times when we want to distinguish between states which are temporally continuous i.e., they have no temporal gaps in their extents and those which are `<i>`gappy `</i>`- the later used in cases when states `<i>`sometimes `</i>`occur or occur repeatedly. The 4D approach has an answer for this - temporally dissected states. These are like ordinary states but are not contiguous in time. We also don't have to call-out the individual occurrences, we just have to say that there are occurrences.
-This is particularly useful when describing the location of something. If we want to say a vehicle is usually in a location, we don't want to have to call-out every state of it when it was in that location. We can simply identify the collection of those temporally separated states, called a TemporallyIntermittentState. If we say that the TemporallyIntermittentState of the car is in a location, we mean that all of states that make up the TemporallyIntermittentState (which we haven't explicitly called out) are part of the location.
+There are times when we want to distinguish between states which are temporally continuous i.e., they have no temporal gaps in their extents and those which are *intermittent* (the later used in cases when states *sometimes* occur or occur repeatedly). The 4D approach has an answer for this - temporally dissected states. These are like ordinary states but are not contiguous in time. We also don't have to call-out the individual occurrences, we just have to say that there are occurrences.
+This is particularly useful when describing the location of something. If we want to say a vehicle is usually in a location, we don't want to have to call-out every state of it when it was in that location. We can simply identify the collection of those temporally separated states, called a `TemporallyIntermittentState`. If we say that the `TemporallyIntermittentState` of the car is in a location, we mean that all of states that make up the `TemporallyIntermittentState` (which we haven't explicitly called out) are part of the location.
 Like other spatiotemporal extents, we can identify the start and end times - e.g. saying a car usually parked in a particular location between one time and another.
 
 ## <a id="99360175-5578-4956-b9f7-a690495ddb5e"></a>Overlap and Disjoint
