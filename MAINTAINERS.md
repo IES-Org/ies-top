@@ -1,6 +1,6 @@
 # Maintainers
 
-**Repository:** `Information Exchange Standard (IES) Top Ontology`  
+**Repository:** `IES Top Ontology (ies-top)`  
 **Description:** `Lists maintainers responsible for reviewing issues, approving changes, and overseeing development.`
 
 <!-- SPDX-License-Identifier: OGL-UK-3.0 -->
@@ -9,7 +9,7 @@
 
 This repository is maintained by three designated maintainers (the **IES Top Maintenance Team**), each bringing distinct expertise to ensure that IES Top meets cross-government requirements, is ontologically rigorous, and is soundly implemented in RDF. A separate security contact handles vulnerability disclosures.
 
-All three maintainers share collective responsibility for reviewing issues, approving changes, and overseeing the repository. Their individual roles reflect areas of lead responsibility, not exclusive ownership.
+All three maintainers share collective responsibility for reviewing issues, approving changes, and overseeing the repository. Their individual roles reflect areas of lead responsibility, not exclusive ownership. Maintainer roles are filled from, and at the direction of, the IES Technical Group, which in turn reports to the IES Steering Group.
 
 ---
 
@@ -23,7 +23,7 @@ Ensures that all changes align with cross-government requirements and the strate
 
 Ensures the conceptual quality, correctness, and consistency of the top ontology and its documentation as well as its adherence to accepted standards for 4-dimensional, extensional foundational ontology.
 
-### RDF Implementation Maintainer
+### RDF Ontology Implementation Maintainer
 
 Ensures the quality, correctness, and consistency of the RDF serialisation of the top ontology.
 
@@ -35,7 +35,7 @@ Ensures the quality, correctness, and consistency of the RDF serialisation of th
 | ---- | ---- | ------------ | ------- |
 | Cross-Government Representative | Nigel D | HM Government | https://github.com/nigel81562 |
 | Foundational Ontology SME | Chris P | BORO Solutions Ltd | https://github.com/chrispartridge1091 |
-| RDF Implementation Maintainer | Andreas C | Telicent Ltd | https://github.com/afizzycola |
+| RDF Ontology Implementation Maintainer | Andreas C | Telicent Ltd | https://github.com/afizzycola |
 
 ### Security Contact
 
@@ -69,9 +69,9 @@ Changes to this repository follow a structured development process based on the 
 
 Changes to the conceptual structure of the ies-top ontology are led by the **Foundational Ontology SME** and developed in a conceptual **UML model**, with support from the other two maintainers. The UML model serves as the conceptual reference for the ies-top ontology's structure.
 
-### RDF Implementation Changes
+### RDF Ontology Implementation Changes
 
-Changes to the RDF serialisation are led by the **RDF Implementation Maintainer** and developed in a **UML-ODM model**, which is then serialised into RDF, with support from the other two maintainers. The RDF implementation should be traceable back to the conceptual UML model. Where the RDF diverges from the UML model due to implementation constraints, these divergences must be documented and justified.
+Changes to the RDF serialisation are led by the **RDF Ontology Implementation Maintainer** and developed in a **UML-ODM model**, which is then serialised into RDF, with support from the other two maintainers. The RDF Ontology Implementation should be traceable back to the conceptual UML model. Where the RDF diverges from the UML model due to implementation constraints, these divergences must be documented and justified.
 
 ### Governance, Documentation, and Repository Changes
 

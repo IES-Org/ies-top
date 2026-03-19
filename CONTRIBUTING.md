@@ -1,11 +1,11 @@
 # Contribution Guidelines
 
-**Repository:** `Information Exchange Standard (IES) Top Ontology`  
+**Repository:** `IES Top Ontology (ies-top)`    
 **Description:** `Guidelines for issue reporting, documentation suggestions, and the IES controlled contribution model.`
 
 <!-- SPDX-License-Identifier: OGL-UK-3.0 -->
 
-Thank you for your interest in this repository. The IES Top ontology, grounded in well-established literature on Extensionalism and 4-Dimensionalism, is expected to evolve gradually. Most users of IES will find that their requests-for-change are applicable to ies-core or to domain-specific, lower-level modules. Accordingly, changes to this top-level ontology are anticipated only in exceptional circumstances - such as when new requirements necessitate additional philosophical grounding, or when there are substantive developments in the conceptual landscape.
+Thank you for your interest in this repository. The IES Top ontology, grounded in well-established literature on Extensionalism and 4-Dimensionalism, is expected to evolve gradually. Most users of IES will find that their requests-for-change are applicable to ies-core or to domain-specific, lower-level modules. Accordingly, changes to this top-level ontology are anticipated only in exceptional circumstances - such as when new requirements necessitate additional foundational ontology grounding, or when there are substantive developments in the conceptual landscape.
 
 The Information Exchange Standard (IES) is developed and maintained as a cross-government initiative with contributions from various UK government organisations and technical support from approved suppliers and subject matter specialists.
 
@@ -38,7 +38,7 @@ This repository is maintained by three designated maintainers (the **IES Top Mai
 The development process depends on the nature of the change:
 
 - **Ontological changes** to the conceptual structure of the top ontology are led by the Foundational Ontology SME and developed in a UML model, with support from the other two maintainers.
-- **RDF implementation changes** are led by the RDF Implementation Maintainer and developed in RDF, with support from the other two maintainers. The RDF implementation should be traceable to the UML model; any divergences due to implementation constraints are documented and justified.
+- **RDF Ontology Implementation changes** are led by the RDF Ontology Implementation Maintainer and developed in RDF, with support from the other two maintainers. The RDF Ontology Implementation should be traceable to the UML model; any divergences due to implementation constraints are documented and justified.
 - **Governance, documentation, and repository changes** are allocated to the maintainers as is appropriate for the change.
 
 For full details of the maintainer roles and development process, see [MAINTAINERS.md](MAINTAINERS.md).
