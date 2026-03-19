@@ -75,7 +75,7 @@ Changes to the RDF serialisation are led by the **RDF Ontology Implementation Ma
 
 ### Governance, Documentation, and Repository Changes
 
-Changes that are neither ontological nor RDF-specific (e.g. governance documents, repository structure, supporting documentation) are allocated to the maintainers as is appropriate for the change.
+Changes that are neither ontological nor RDF-specific (e.g. governance documents, repository structure, supporting documentation) are allocated to the maintainers as is appropriate for the change. Any changes relating to governance must first be recommended by the IES Technical Group and then approved by the IES Steering Group before associated changes are made by the maintainers.
 
 ---
 
