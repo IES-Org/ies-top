@@ -90,6 +90,8 @@ New issues on this repo must have an initial response provided by either member 
 - Improves the quality of technical discussion.
 - Avoids rushed or uninformed decision-making.
 
+Additionally, pull requests that propose changes to governance (e.g. contribution policies, maintainer roles, decision-making processes) must remain open for a minimum of 4 weeks to allow for comment from stakeholders. For the approval process governing such changes, see [How Changes Are Developed](#how-changes-are-developed).
+
 ---
 
 ## IES Approach to Open-Source Development
