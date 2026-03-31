@@ -1,6 +1,6 @@
 # License
 
-**Repository:** `Information Exchange Standard (IES) Top Ontology`  
+**Repository:** `Information Exchange Standard (IES) - Top Ontology`
 **Description:** `Defines the licensing terms for the code and documentation in this repository.`
 
 <!-- SPDX-License-Identifier: MIT -->

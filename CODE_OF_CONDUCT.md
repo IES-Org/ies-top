@@ -1,6 +1,6 @@
 # Code of Conduct
 
-**Repository:** `Information Exchange Standard (IES) Top Ontology`  
+**Repository:** `Information Exchange Standard (IES) - Top Ontology`
 **Description:** `Defines expected behaviours, rules, and the enforcement process to ensure professional engagement.`
 
 <!-- SPDX-License-Identifier: OGL-UK-3.0 -->

@@ -1,8 +1,7 @@
-![IES Logo](./assets/images/IES-logo-dark.png)
-# Information Exchange Standard (IES) - Top Ontology (ies-top)
+# <img src="./assets/images/IES-logo-dark.png" alt="IES Logo" width="50" align="absmiddle"> Information Exchange Standard (IES) - Top Ontology (ies-top)
 
-**Repository:** `Information Exchange Standard (IES) Top Ontology`  
-**Description:** `A top level ontology grounded in Extensional Four-Dimensionalism`  
+**Repository:** `Information Exchange Standard (IES) - Top Ontology`
+**Description:** `A top level ontology grounded in Extensional Four-Dimensionalism`
 **Repository Status:** `In development`
 
 ---
@@ -83,6 +82,7 @@ This repository contains both source code and documentation, each released under
 - **Documentation** – Licensed under the [Open Government Licence v3.0 (OGL-UK-3.0)](./OGL_LICENSE.md)
 
 By contributing to this repository, you agree that your contributions will be licensed under these terms.
+
 © Crown Copyright 2026.
 
 ## Contributions and Feedback
