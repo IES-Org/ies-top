@@ -39,7 +39,7 @@ The development process depends on the nature of the change:
 
 - **Ontological changes** to the conceptual structure of the top ontology are led by the Foundational Ontology SME and developed in a UML model, with support from the other two maintainers.
 - **RDF Ontology Implementation changes** are led by the RDF Ontology Implementation Maintainer and developed in RDF, with support from the other two maintainers. The RDF Ontology Implementation should be traceable to the UML model; any divergences due to implementation constraints are documented and justified.
-- **Governance, documentation, and repository changes** are allocated to the maintainers as is appropriate for the change. Any changes relating to governance must first be recommended by the IES Technical Group and then approved by the IES Steering Group before associated changes are made by the maintainers.
+- **Governance, documentation, and repository changes** are allocated to the maintainers as is appropriate for the change. Any changes relating to governance must first be recommended by the IES Technical Group (TG) and then approved by the IES Steering Group (SG) before associated changes are made by the maintainers.
 
 For full details of the maintainer roles and development process, see [MAINTAINERS.md](MAINTAINERS.md).
 

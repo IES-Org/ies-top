@@ -9,7 +9,7 @@
 
 This repository is maintained by three designated maintainers (the **IES Top Maintenance Team**), each bringing distinct expertise to ensure that IES Top meets cross-government requirements, is ontologically rigorous, and is soundly implemented in RDF. A separate security contact handles vulnerability disclosures.
 
-All three maintainers share collective responsibility for reviewing issues, approving changes, and overseeing the repository. Their individual roles reflect areas of lead responsibility, not exclusive ownership. Maintainer roles are filled from, and at the direction of, the IES Technical Group, which in turn reports to the IES Steering Group.
+All three maintainers share collective responsibility for reviewing issues, approving changes, and overseeing the repository. Their individual roles reflect areas of lead responsibility, not exclusive ownership. Maintainer roles are filled from, and at the direction of, the IES Technical Group (TG), which in turn reports to the IES Steering Group (SG).
 
 ---
 
@@ -37,6 +37,8 @@ Ensures the quality, correctness, and consistency of the RDF serialisation of th
 | Foundational Ontology SME | Chris P | BORO Solutions Ltd | https://github.com/chrispartridge1091 |
 | RDF Ontology Implementation Maintainer | Andreas C | Telicent Ltd | https://github.com/afizzycola |
 
+---
+
 ### Security Contact
 
 A separate security contact is responsible for receiving and coordinating vulnerability reports. For the current security contact and the responsible disclosure process, see [SECURITY.md](SECURITY.md).
@@ -57,7 +59,7 @@ Access to the ies-top repository is controlled as follows:
 
 ## Review and Approval Process
 
-All issues and proposed changes are reviewed by the appropriate maintainers. No change may be merged or released without their **unanimous agreement**.
+All issues and proposed changes are reviewed by the appropriate maintainers. No change may be merged into `main` or released without their **unanimous agreement**.
 
 ---
 
