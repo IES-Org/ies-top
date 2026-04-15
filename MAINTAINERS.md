@@ -9,7 +9,13 @@
 
 This repository is maintained by three designated maintainers (the **IES Top Maintenance Team**), each bringing distinct expertise to ensure that IES Top meets cross-government requirements, is ontologically rigorous, and is soundly implemented in RDF. A separate security contact handles vulnerability disclosures.
 
-All three maintainers share collective responsibility for reviewing issues, approving changes, and overseeing the repository. Their individual roles reflect areas of lead responsibility, not exclusive ownership. Maintainer roles are filled from, and at the direction of, the IES Technical Group (TG), which in turn reports to the IES Steering Group (SG).
+All three maintainers share collective responsibility for:
+1. Reviewing and responding to issues raised on this repo
+2. Assessing documentation updates and corrections
+3. Where applicable, overseeing updates developed by approved contributors
+4. Reviewing pull requests and overseeing the repository
+
+In addition to the above, their individual roles reflect areas of lead responsibility, not exclusive ownership. Maintainer roles are filled from, and at the direction of, the IES Technical Group (TG), which in turn reports to the IES Steering Group (SG).
 
 ---
 
@@ -17,7 +23,7 @@ All three maintainers share collective responsibility for reviewing issues, appr
 
 ### Cross-Government Representative
 
-Ensures that all changes align with cross-government requirements and the strategic objectives of the Information Exchange Standard initiative.
+Ensures that all changes align with cross-government requirements and the strategic objectives of the Information Exchange Standard initiative. Moreover, ensures compliance with licensing and security practices.
 
 ### Foundational Ontology SME
 
