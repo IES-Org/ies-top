@@ -282,12 +282,13 @@ A Set that contains sets of spatio-temporal extents.
 
 
 ### <a id="44a34647-ea2f-4635-8dd4-9e48008a85af"></a>SetOfSetOfStates
-
+An instance of this is a set that contains sets of states.
 
 ### <a id="0c4a5ca9-a706-4653-ab55-69d2fcab0d23"></a>SetOfSpatiotemporalExtents
-A Set that contains spatio-temporal extents.
+An instance of this is a set that contains spatio-temporal extents.
 
 ### <a id="e25c3b00-4ca3-40f4-9443-15c9dc4ee972"></a>SetOfStates
+An instance of this is a set that contains states.
 
 
 ### <a id="dcb3f671-0fa3-4de6-b037-a011c432a087"></a>SpatiotemporalExtent
