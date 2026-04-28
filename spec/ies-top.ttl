@@ -1,6 +1,6 @@
 # MIT License
 #
-# Crown Copyright (c) 2025
+# Crown Copyright (c) 2026
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal.
@@ -41,15 +41,15 @@ ies_top: a owl:Ontology ;
    A top level ontology grounded in Extensional Four-Dimensionalism.
    """@en-GB ;
    dcterms:created "2025-09-30"^^xsd:date ;
-   dcterms:modified "2025-09-30"^^xsd:date ;
+   dcterms:modified "2026-04-28"^^xsd:date ;
    dcterms:publisher "UK Department for Business and Trade"@en-GB ;
    dcterms:language "en-GB" ;
    dcterms:license <https://spdx.org/licenses/MIT.html> ;
-   dcterms:rights "Crown Copyright 2020-2025"@en-GB ;
-   dcterms:dateCopyrighted "2025"^^xsd:gYear ;
+   dcterms:rights "Crown Copyright 2020-2026"@en-GB ;
+   dcterms:dateCopyrighted "2026"^^xsd:gYear ;
    vann:preferredNamespacePrefix "ies_top" ;
    vann:preferredNamespaceUri "http://purl.org/ies/top/v0/ont/" ;
-   owl:versionInfo "0.1.0 (RC1)" .
+   owl:versionInfo "0.1.1 (RC1)" .
 
 ies_top:couple rdf:type rdf:Property . 
 ies_top:couple rdfs:label "couple" . 
@@ -173,16 +173,18 @@ ies_top:SetOfSetOfSpatiotemporalExtents rdfs:subClassOf ies_top:Set .
 ies_top:SetOfSetOfStates rdf:type rdfs:Class . 
 ies_top:SetOfSetOfStates rdfs:label "Set Of Set Of States" . 
 ies_top:SetOfSetOfStates dcterms:identifier "{44A34647-EA2F-4635-8DD4-9E48008A85AF}" . 
+ies_top:SetOfSetOfStates rdfs:comment "An instance of this is a set that contains sets of states." . 
 ies_top:SetOfSetOfStates rdfs:subClassOf ies_top:SetOfSetOfSpatiotemporalExtents . 
 ies_top:SetOfSpatiotemporalExtents rdf:type rdfs:Class . 
 ies_top:SetOfSpatiotemporalExtents rdfs:label "Set Of Spatiotemporal Extents" . 
 ies_top:SetOfSpatiotemporalExtents dcterms:identifier "{0C4A5CA9-A706-4653-AB55-69D2FCAB0D23}" . 
-ies_top:SetOfSpatiotemporalExtents rdfs:comment "A Set that contains spatio-temporal extents." . 
+ies_top:SetOfSpatiotemporalExtents rdfs:comment "An instance of this is a set that contains spatio-temporal extents." . 
 ies_top:SetOfSpatiotemporalExtents rdfs:subClassOf ies_top:Set . 
 ies_top:SetOfSpatiotemporalExtents ies_top:powertype ies_top:SetOfSetOfSpatiotemporalExtents . 
 ies_top:SetOfStates rdf:type rdfs:Class . 
 ies_top:SetOfStates rdfs:label "Set Of States" . 
 ies_top:SetOfStates dcterms:identifier "{E25C3B00-4CA3-40f4-9443-15C9DC4EE972}" . 
+ies_top:SetOfStates rdfs:comment "An instance of this is a set that contains states." . 
 ies_top:SetOfStates rdfs:subClassOf ies_top:SetOfSpatiotemporalExtents . 
 ies_top:SetOfStates ies_top:powertype ies_top:SetOfSetOfStates . 
 ies_top:SpatiotemporalExtent rdf:type rdfs:Class . 
