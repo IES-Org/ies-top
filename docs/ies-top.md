@@ -21,11 +21,11 @@ Crown Copyright (c) 2025
 
 ### IES elements in this diagram:
 
-* [Set](#059b5013-017b-496f-b104-ea82b69b8792)
-* [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
 * [groundingRelation](#45345e32-79b0-4d24-8424-2531acdf691a)
-* [Tuple](#b65c4468-4e79-4857-8a01-1da50501e692)
+* [Set](#059b5013-017b-496f-b104-ea82b69b8792)
 * [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
+* [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
+* [Tuple](#b65c4468-4e79-4857-8a01-1da50501e692)
 
 At the top of top you have:
 <ul>
@@ -45,10 +45,10 @@ The equivalent top level of the BORO(TM) Foundational Ontology, has relations he
 ### IES elements in this diagram:
 
 * [groundingRelation](#45345e32-79b0-4d24-8424-2531acdf691a)
+* [partWhole](#ced45081-fc65-43bf-a953-25232ef7820b)
 * [powertype](#82f50d01-425f-400f-b147-6228c9019fde)
 * [subSuperRelation](#d6ec5416-51c4-457f-9eae-4482a118d9b3)
 * [tuplePlace](#e0c16b56-3271-444b-8f2f-01756c2dde60)
-* [partWhole](#ced45081-fc65-43bf-a953-25232ef7820b)
 
 Grounding relations are derived from the four basic constructors outlined in the <a href="https://borosolutions.net/core-constructional-ontology"><font color="#0000ff"><u>Core Constructional Ontology</u></font></a>. They are:
 <ul>
@@ -66,11 +66,11 @@ The concept of pluralities is found at a higher order than the concepts in RDF/S
 
 ### IES elements in this diagram:
 
-* [Universe](#6dc85ae1-ca5e-4fd1-8b67-afd244d1d01d)
-* [State](#885fc001-7738-47ab-8870-30d004a57180)
 * [Period](#d77a3301-53bb-4820-a86a-f7c6a0d4c9a4)
 * [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
+* [State](#885fc001-7738-47ab-8870-30d004a57180)
 * [Timespan](#b9900e87-e85c-4378-8afe-d3a5ef0168a0)
+* [Universe](#6dc85ae1-ca5e-4fd1-8b67-afd244d1d01d)
 
 In IES, we commit to the pluriverse, which provides the grounding for talk about possibilities (using universes) we need to make clear distinctions between elements that can be trans-universe (part of more than one universe) and the ones we do most of our work with, those that are universe-bound (part of one and only one universe).
 <ul>
@@ -94,13 +94,13 @@ In IES, we commit to the pluriverse, which provides the grounding for talk about
 
 ### IES elements in this diagram:
 
-* [Set](#059b5013-017b-496f-b104-ea82b69b8792)
-* [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
 * [groundingRelation](#45345e32-79b0-4d24-8424-2531acdf691a)
 * [powertype](#82f50d01-425f-400f-b147-6228c9019fde)
-* [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
-* [SetOfSpatiotemporalExtents](#0c4a5ca9-a706-4653-ab55-69d2fcab0d23)
+* [Set](#059b5013-017b-496f-b104-ea82b69b8792)
 * [SetOfSetOfSpatiotemporalExtents](#33a6e9f9-54b5-4045-8733-ce821d972c6f)
+* [SetOfSpatiotemporalExtents](#0c4a5ca9-a706-4653-ab55-69d2fcab0d23)
+* [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
+* [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
 
 To realize the need to be able to put elements into sets we use the ubiquitously used rdf:type. This is the same approach as in IES4. powertype also carries over from IES4.
 
@@ -110,16 +110,16 @@ To realize the need to be able to put elements into sets we use the ubiquitously
 
 ### IES elements in this diagram:
 
-* [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
 * [groundingRelation](#45345e32-79b0-4d24-8424-2531acdf691a)
-* [State](#885fc001-7738-47ab-8870-30d004a57180)
+* [isAFinishOf](#291c902a-0cac-467e-9c3a-ad8ee537cb3d)
+* [isAStartOf](#c939a967-d8a7-4a4b-bac3-ca1631a54b82)
+* [isImproperPartOf](#a46e9e64-6238-42d3-96ab-e0ab6c532636)
 * [isPartOf](#b51571e4-8ac5-4387-bb47-ab110e15f586)
-* [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
 * [isTemporalPartOf](#91245399-d5d7-4ad7-a8da-c0db2f9e4332)
 * [partWhole](#ced45081-fc65-43bf-a953-25232ef7820b)
-* [isAStartOf](#c939a967-d8a7-4a4b-bac3-ca1631a54b82)
-* [isAFinishOf](#291c902a-0cac-467e-9c3a-ad8ee537cb3d)
-* [isImproperPartOf](#a46e9e64-6238-42d3-96ab-e0ab6c532636)
+* [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
+* [State](#885fc001-7738-47ab-8870-30d004a57180)
+* [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
 
 For the mereological relations, we make clear distinctions between what spatiotemporal extents are universe-bound and which are not. An additional distinction is made here for mereologies between spatiotemporal extents in the same universe (universe-mates).
 <ul>
@@ -135,16 +135,16 @@ For the mereological relations, we make clear distinctions between what spatiote
 
 ### IES elements in this diagram:
 
+* [couple](#85feafd9-50a0-42ea-9cc7-8dc7b055f47b)
+* [FourPlaceTuple](#9a10f900-2011-45d3-9201-85b9e5a2784a)
 * [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
 * [ThreePlaceTuple](#462ab7c2-3866-4085-b0f4-7e14a989cc5c)
-* [tuplePlace_4](#8bd2e8ce-a8c4-41af-bc35-832a68d6b53c)
-* [FourPlaceTuple](#9a10f900-2011-45d3-9201-85b9e5a2784a)
 * [Tuple](#b65c4468-4e79-4857-8a01-1da50501e692)
-* [tuplePlace_2](#b97dd954-1164-43b7-9de8-d4e350a8c2e6)
-* [tuplePlace_1](#c9dc8b44-ee16-4d29-9e5c-0326218c5914)
 * [tuplePlace](#e0c16b56-3271-444b-8f2f-01756c2dde60)
+* [tuplePlace_1](#c9dc8b44-ee16-4d29-9e5c-0326218c5914)
+* [tuplePlace_2](#b97dd954-1164-43b7-9de8-d4e350a8c2e6)
 * [tuplePlace_3](#e719f16e-ec6b-47bb-848d-16544e31316c)
-* [couple](#85feafd9-50a0-42ea-9cc7-8dc7b055f47b)
+* [tuplePlace_4](#8bd2e8ce-a8c4-41af-bc35-832a68d6b53c)
 
 A  tuple is a sequence of two or more things. Each part of a tuple is identified by a <i>tuplePlace.</i>
 E.g. for the tuples that are members of <i>Father-Son Tuples, </i>you recover the father-son relations by knowing that<i> </i>the first tuple place is for the father and the second for the son:
@@ -159,17 +159,17 @@ ies-top provides in its base serialization tuples of up to four places. If users
 
 ### IES elements in this diagram:
 
-* [relationshipBetweenUniverseMates](#030e8b68-77eb-4013-bd03-33198a229c83)
-* [entirelyAfter](#1e663e8c-8b98-410d-a373-ce8e2dadaa1f)
-* [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
-* [relationshipBetweenStates](#4f36c24c-39a3-472d-94c3-b2bbd48f951f)
-* [relationship](#5cc94004-05d7-45ec-a5c8-56cffe8a3a39)
-* [Universe](#6dc85ae1-ca5e-4fd1-8b67-afd244d1d01d)
-* [State](#885fc001-7738-47ab-8870-30d004a57180)
-* [Period](#d77a3301-53bb-4820-a86a-f7c6a0d4c9a4)
-* [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
 * [couple](#85feafd9-50a0-42ea-9cc7-8dc7b055f47b)
+* [entirelyAfter](#1e663e8c-8b98-410d-a373-ce8e2dadaa1f)
+* [Period](#d77a3301-53bb-4820-a86a-f7c6a0d4c9a4)
+* [relationship](#5cc94004-05d7-45ec-a5c8-56cffe8a3a39)
+* [relationshipBetweenStates](#4f36c24c-39a3-472d-94c3-b2bbd48f951f)
+* [relationshipBetweenUniverseMates](#030e8b68-77eb-4013-bd03-33198a229c83)
+* [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
+* [State](#885fc001-7738-47ab-8870-30d004a57180)
+* [Thing](#27c6bcf1-9ffe-4172-ac2c-e32653b43014)
 * [Timespan](#b9900e87-e85c-4378-8afe-d3a5ef0168a0)
+* [Universe](#6dc85ae1-ca5e-4fd1-8b67-afd244d1d01d)
 
 A relation between two things in IES, is a two-placed tuple aka. a couple. Couples are implemented as simple RDF properties.
 Like the mereological relations, we again make clear distinctions between the relationships of spatiotemporal extents that are universe-bound and which are not. Moreover, which relationships are between spatiotemporal extents in the same universe (universe-mates).
@@ -182,12 +182,12 @@ Most user-created relationships that are not <i>grounding relations</i> will typ
 
 ### IES elements in this diagram:
 
+* [IntermittentTimespan](#ed41858d-a919-4e57-9c60-e2333556c826)
+* [Period](#d77a3301-53bb-4820-a86a-f7c6a0d4c9a4)
 * [State](#885fc001-7738-47ab-8870-30d004a57180)
 * [TemporallyContinuousState](#01fbe830-dc8b-4c9d-8cda-d8d2bfd22dfe)
 * [TemporallyIntermittentState](#54795bb4-0a44-4837-ad45-2e51ede3dd2f)
-* [Period](#d77a3301-53bb-4820-a86a-f7c6a0d4c9a4)
 * [Timespan](#b9900e87-e85c-4378-8afe-d3a5ef0168a0)
-* [IntermittentTimespan](#ed41858d-a919-4e57-9c60-e2333556c826)
 * [Universe](#6dc85ae1-ca5e-4fd1-8b67-afd244d1d01d)
 
 There are times when we want to distinguish between states which are temporally continuous i.e., they have no temporal gaps in their extents and those which are <i>gappy </i>- the later used in cases when states <i>sometimes </i>occur or occur repeatedly. The 4D approach has an answer for this - temporally dissected states. These are like ordinary states but are not contiguous in time. We also don't have to call-out the individual occurrences, we just have to say that there are occurrences.
@@ -200,12 +200,12 @@ Like other spatiotemporal extents, we can identify the start and end times - e.g
 
 ### IES elements in this diagram:
 
-* [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
-* [SetOfSpatiotemporalExtents](#0c4a5ca9-a706-4653-ab55-69d2fcab0d23)
-* [SetOfOverlappingSpatiotemporalExtents](#af81b43d-1f08-4ab8-a4a2-521a71183550)
-* [SetOfDisjointSpatiotemporalExtents](#2733c396-a001-42fb-945f-b4f26e120b33)
 * [couple](#85feafd9-50a0-42ea-9cc7-8dc7b055f47b)
 * [intersectionOf](#b79f1b38-5b0e-4647-a661-cc8836ba68d0)
+* [SetOfDisjointSpatiotemporalExtents](#2733c396-a001-42fb-945f-b4f26e120b33)
+* [SetOfOverlappingSpatiotemporalExtents](#af81b43d-1f08-4ab8-a4a2-521a71183550)
+* [SetOfSpatiotemporalExtents](#0c4a5ca9-a706-4653-ab55-69d2fcab0d23)
+* [SpatiotemporalExtent](#dcb3f671-0fa3-4de6-b037-a011c432a087)
 
 There are times when two spatiotemporal extents have shared parts and expressing that shared part (the intersection) is useful (e.g. the borders of two countries). Other times, it is equally important to call out two spatiotemporal extents that have no shared parts i.e. are disjoint (e.g. the paths taken by two ships are disjoint).
 
