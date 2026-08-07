@@ -37,11 +37,11 @@ Ensures the quality, correctness, and consistency of the RDF serialisation of th
 
 ## Current IES Top Maintenance Team
 
-| Role | Name | Organisation | Contact |
-| ---- | ---- | ------------ | ------- |
-| Cross-Government Representative | Nigel D | HM Government | https://github.com/nigel81562 |
-| Foundational Ontology SME | Chris P | BORO Solutions Ltd | https://github.com/chrispartridge1091 |
-| RDF Ontology Implementation Maintainer | Andreas C | Telicent Ltd | https://github.com/afizzycola |
+| Name | Organisation | Contact |
+| ---- | ------------ | ------- |
+| Nigel D | HM Government | https://github.com/nigel81562 |
+| Chris P | BORO Solutions Ltd | https://github.com/chrispartridge1091 |
+| Andreas C | Telicent Ltd | https://github.com/afizzycola |
 
 ---
 
