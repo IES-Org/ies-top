@@ -6,8 +6,12 @@
 # of this software and associated documentation files (the "Software"), to deal.
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is# furnished to do so, subject to the following conditions:#
-# The above copyright notice and this permission notice shall be included in all# copies or substantial portions of the Software.#
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -115,7 +119,7 @@ ies_top:IntermittentTimespan rdfs:subClassOf ies_top:TemporallyIntermittentState
 ies_top:intersectionOf rdf:type rdf:Property . 
 ies_top:intersectionOf rdfs:label "intersection of" . 
 ies_top:intersectionOf dcterms:identifier "{B79F1B38-5B0E-4647-A661-CC8836BA68D0}" . 
-ies_top:intersectionOf rdfs:comment "A couple between a SetOfOverlappingExtents and an Extent which is the intersection of their overlap. Note, there is no Intersection subClassOf of Extent because in someway, any extent can be considered an intersection of others." . 
+ies_top:intersectionOf rdfs:comment "A couple between an Extent and a SetOfOverlappingExtents, where the Extent is the intersection of the overlapping extents. Note, there is no Intersection subClassOf of Extent because in some way, any extent can be considered an intersection of others." . 
 ies_top:intersectionOf rdfs:subPropertyOf ies_top:couple . 
 ies_top:intersectionOf rdfs:domain ies_top:Extent . 
 ies_top:intersectionOf rdfs:range ies_top:SetOfOverlappingExtents . 
@@ -229,12 +233,7 @@ ies_top:SetOfExtents rdfs:label "Set Of Extents" .
 ies_top:SetOfExtents dcterms:identifier "{805DF273-FD65-4ed5-BECB-621F5B16042C}" . 
 ies_top:SetOfExtents rdfs:comment "The powertype of Extent. An instance of this is a set that contains extents." . 
 ies_top:SetOfExtents rdfs:subClassOf ies_top:Set . 
-ies_top:SetOfExtents ies_top:powertype ies_top:SetOfExtents . 
-ies_top:SetOfExtents rdf:type rdfs:Class . 
-ies_top:SetOfExtents rdfs:label "Set Of Extents" . 
-ies_top:SetOfExtents dcterms:identifier "{DECF0E9C-7789-4946-A685-0FBAACD25181}" . 
-ies_top:SetOfExtents rdfs:comment "The powertype of SetOfExtents. An instance of this is a set that contains sets of extents." . 
-ies_top:SetOfExtents rdfs:subClassOf ies_top:Set . 
+ies_top:SetOfExtents ies_top:powertype ies_top:SetOfSetOfExtents . 
 ies_top:SetOfOverlappingExtents rdf:type rdfs:Class . 
 ies_top:SetOfOverlappingExtents rdfs:label "Set Of Overlapping Extents" . 
 ies_top:SetOfOverlappingExtents dcterms:identifier "{AF81B43D-1F08-4ab8-A4A2-521A71183550}" . 
@@ -246,6 +245,11 @@ ies_top:SetOfRegularSpacetimeExtents dcterms:identifier "{0C4A5CA9-A706-4653-AB5
 ies_top:SetOfRegularSpacetimeExtents rdfs:comment "The powertype of RegularSpacetimeExtent. An instance of this is a set that contains regular spacetime extents." . 
 ies_top:SetOfRegularSpacetimeExtents rdfs:subClassOf ies_top:SetOfSpacetimeExtents . 
 ies_top:SetOfRegularSpacetimeExtents ies_top:powertype ies_top:SetOfSetOfRegularSpacetimeExtents . 
+ies_top:SetOfSetOfExtents rdf:type rdfs:Class . 
+ies_top:SetOfSetOfExtents rdfs:label "Set Of Set Of Extents" . 
+ies_top:SetOfSetOfExtents dcterms:identifier "{DECF0E9C-7789-4946-A685-0FBAACD25181}" . 
+ies_top:SetOfSetOfExtents rdfs:comment "The powertype of SetOfExtents. An instance of this is a set that contains sets of extents." . 
+ies_top:SetOfSetOfExtents rdfs:subClassOf ies_top:Set . 
 ies_top:SetOfSetOfRegularSpacetimeExtents rdf:type rdfs:Class . 
 ies_top:SetOfSetOfRegularSpacetimeExtents rdfs:label "Set Of Set Of Regular Spacetime Extents" . 
 ies_top:SetOfSetOfRegularSpacetimeExtents dcterms:identifier "{33A6E9F9-54B5-4045-8733-CE821D972C6F}" . 
@@ -255,7 +259,7 @@ ies_top:SetOfSetOfSpacetimeExtents rdf:type rdfs:Class .
 ies_top:SetOfSetOfSpacetimeExtents rdfs:label "Set Of Set Of Spacetime Extents" . 
 ies_top:SetOfSetOfSpacetimeExtents dcterms:identifier "{68FEE518-3D9A-430f-8255-1A1A16784AF9}" . 
 ies_top:SetOfSetOfSpacetimeExtents rdfs:comment "The powertype of SetOfSpacetimeExtents. An instance of this is a set that contains sets of spacetime extents." . 
-ies_top:SetOfSetOfSpacetimeExtents rdfs:subClassOf ies_top:SetOfExtents . 
+ies_top:SetOfSetOfSpacetimeExtents rdfs:subClassOf ies_top:SetOfSetOfExtents . 
 ies_top:SetOfSetOfStates rdf:type rdfs:Class . 
 ies_top:SetOfSetOfStates rdfs:label "Set Of Set Of States" . 
 ies_top:SetOfSetOfStates dcterms:identifier "{44A34647-EA2F-4635-8DD4-9E48008A85AF}" . 
@@ -289,7 +293,7 @@ ies_top:State rdfs:subClassOf ies_top:WorldboundExtent .
 ies_top:Stuff rdf:type rdfs:Class . 
 ies_top:Stuff rdfs:label "Stuff" . 
 ies_top:Stuff dcterms:identifier "{0F8A7A2E-896C-4b09-AFDE-F63807BDC767}" . 
-ies_top:Stuff rdfs:comment "A spatiotemporal extent that is highly dissective or generally uncountable. Any division of it yields the same type of spatiotemporal extent e.g. if you cut sand in half, you still have sand. As well as sand, other examples include water, gas and coffee." . 
+ies_top:Stuff rdfs:comment "An extent that is highly dissective or generally uncountable. Any division of it yields the same type of extent e.g. if you cut sand in half, you still have sand. As well as sand, other examples include water, gas and coffee." . 
 ies_top:Stuff rdfs:subClassOf ies_top:Extent . 
 ies_top:subSuperRelation rdf:type rdf:Property . 
 ies_top:subSuperRelation rdfs:label "sub super relation" . 

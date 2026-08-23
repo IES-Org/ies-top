@@ -160,16 +160,16 @@ ies_top_sh:SetOfExtentsShape rdf:type sh:NodeShape ;
     sh:targetClass ies_top:SetOfExtents ;
     sh:severity sh:Warning .
 
-ies_top_sh:SetOfExtentsShape rdf:type sh:NodeShape ;
-    sh:targetClass ies_top:SetOfExtents ;
-    sh:severity sh:Warning .
-
 ies_top_sh:SetOfOverlappingExtentsShape rdf:type sh:NodeShape ;
     sh:targetClass ies_top:SetOfOverlappingExtents ;
     sh:severity sh:Warning .
 
 ies_top_sh:SetOfRegularSpacetimeExtentsShape rdf:type sh:NodeShape ;
     sh:targetClass ies_top:SetOfRegularSpacetimeExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfSetOfExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfSetOfExtents ;
     sh:severity sh:Warning .
 
 ies_top_sh:SetOfSetOfRegularSpacetimeExtentsShape rdf:type sh:NodeShape ;
