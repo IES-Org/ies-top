@@ -253,7 +253,3 @@ ies_top_sh:WorldShape rdf:type sh:NodeShape ;
 ies_top_sh:WorldboundExtentShape rdf:type sh:NodeShape ;
     sh:targetClass ies_top:WorldboundExtent ;
     sh:severity sh:Warning .
-
-ies_top_sh:pluriverseShape rdf:type sh:NodeShape ;
-    sh:targetClass ies_top:pluriverse ;
-    sh:severity sh:Warning .
