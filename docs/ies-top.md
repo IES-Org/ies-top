@@ -96,8 +96,8 @@ In extensional ontologies, like IES, the identity of an individual is determined
 This provides the (mereological) foundation for the spatiotemporal criterion of identity, first introduced into IES at Version 4.
 
 <b><i>If two individuals occupy the same spacetime, they are the same individual.</i></b>
-<b><i>
-</i></b>IES-Top makes these identity criteria explicit within its hierarchy through the introduction of <i>Extent</i>, representing any part of a pluriverse, and its subclass <i>SpacetimeExtent</i>, representing any part of a spacetime world (see <i>Spacetime</i>). The extensional approach to identity also applies to the other two forms of Thing: Sets and Tuples. 
+
+IES-Top makes these identity criteria explicit within its hierarchy through the introduction of <i>Extent</i>, representing any part of a pluriverse, and its subclass <i>SpacetimeExtent</i>, representing any part of a spacetime world (see <i>Spacetime</i>). The extensional approach to identity also applies to the other two forms of Thing: Sets and Tuples. 
 
 The criterion of identity for Set is:
 
@@ -258,9 +258,9 @@ As with the mereological relations, IES-Top provides couple relations at several
 * [SelfDisconnectedWorldboundExtent](#18d96dd0-f197-43ff-9a5f-c33cca3efb5d)
 * [WorldboundExtent](#2c69b5c1-9b2f-48ab-aebe-300ce76ba0a0)
 
-IES-Top provides a standard mereotopology answer to the question of gaps: <b><i>connected</i></b> and <b><i>disconnected</i></b>.
+IES-Top provides a standard mereotopology answer to the question of gaps: <i>connected</i> and <i>disconnected</i>.
 
-Two extents are <b><i>connected</i></b> if they are in contact - meeting with no gap between them - and <b><i>disconnected</i></b> if a gap separates them.
+Two extents are <i>connected</i> if they are in contact - meeting with no gap between them - and <i>disconnected</i> if a gap separates them.
 
 Connection is symmetric and is not the same as overlap (See <i>Overlap and Disjoint</i>). Extents that overlap are connected, but so are ones that merely abut, like two bricks side by side. Because connection tells us when two things touch, it also lets us ask whether a 4D extent is all one piece or is instead made up of separate chunks. 
 
@@ -380,7 +380,7 @@ A grounding relation placing one extent as part of another (the whole).
 A self-connected and therefore uninterrupted timespan.
 
 ### <a id="82f50d01-425f-400f-b147-6228c9019fde"></a>powertype
-An rdf:type relation that asserts one set is the powerset of the other (see Cantor's theorem).
+An rdf:type relation that asserts one set is the powerset of the other (see Cantors theorem).
 
 
 ### <a id="dcb3f671-0fa3-4de6-b037-a011c432a087"></a>RegularSpacetimeExtent
