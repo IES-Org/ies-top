@@ -1,11 +1,11 @@
 [back to readme](README.md)
 
-Crown Copyright (c) 2026
+Crown Copyright (c) 2025
 # <img src="../assets/images/IES-logo-dark.png" alt="IES Logo" width="50" align="absmiddle"> Top
 
 # version: 0.2.0 (RC2)
 ## Contents
-* Introduction Diagrams
+* Diagrams
     * [Top Overview](#0f81418a-23a7-4c91-8e35-5864ef60b4d8)
     * [Grounding Relations](#9b8f8584-8708-4253-b4b5-5c8680b8880c)
     * [The Pluriverse](#bc0c5822-5211-48eb-a9ab-650574156206)
