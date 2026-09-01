@@ -10,7 +10,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix ies_top: <http://purl.org/ies/top/v0/ont/> .
-@prefix ies_top_sh: <http://purl.org/ies/top/v0/sh/> .
+@prefix ies_top_sh: <http://purl.org/ies/top/v0/shapes/> .
 
 ies_top_sh:connectedDomainShape rdf:type sh:NodeShape ;
     sh:targetSubjectsOf ies_top:connected ;
