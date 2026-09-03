@@ -44,7 +44,7 @@
    A top level ontology grounded in Extensional Four-Dimensionalism.
    """@en-GB ;
    dcterms:created "2025-09-30"^^xsd:date ;
-   dcterms:modified "2026-08-23"^^xsd:date ;
+   dcterms:modified "2026-09-03"^^xsd:date ;
    dcterms:publisher "UK Department for Business and Trade"@en-GB ;
    dcterms:language "en-GB" ;
    dcterms:license <https://spdx.org/licenses/MIT.html> ;
@@ -173,7 +173,7 @@ ies_top:powertype rdfs:subPropertyOf rdf:type .
 ies_top:RegularSpacetimeExtent rdf:type rdfs:Class . 
 ies_top:RegularSpacetimeExtent rdfs:label "Regular Spacetime Extent" . 
 ies_top:RegularSpacetimeExtent dcterms:identifier "{DCB3F671-0FA3-4de6-B037-A011C432A087}" . 
-ies_top:RegularSpacetimeExtent rdfs:comment "A spacetime extent which is part of a world which is a smooth four-dimensional manifold (a universe)." . 
+ies_top:RegularSpacetimeExtent rdfs:comment "A spacetime extent which is part of a world which is a smooth four-dimensional manifold (a universe). This is sometimes referred to as a four-dimensional extent." . 
 ies_top:RegularSpacetimeExtent rdfs:subClassOf ies_top:SpacetimeExtent . 
 ies_top:RegularSpacetimeExtent ies_top:powertype ies_top:SetOfRegularSpacetimeExtents . 
 ies_top:relationship rdf:type rdf:Property . 
@@ -280,7 +280,7 @@ ies_top:SetOfStates ies_top:powertype ies_top:SetOfSetOfStates .
 ies_top:SpacetimeExtent rdf:type rdfs:Class . 
 ies_top:SpacetimeExtent rdfs:label "Spacetime Extent" . 
 ies_top:SpacetimeExtent dcterms:identifier "{77BB5948-C5BF-4cc2-B6DC-B7FFE413ADF5}" . 
-ies_top:SpacetimeExtent rdfs:comment "A spatiotemporal extent aka. a four-dimensional extent." . 
+ies_top:SpacetimeExtent rdfs:comment "A spatiotemporal extent." . 
 ies_top:SpacetimeExtent rdfs:subClassOf ies_top:Extent . 
 ies_top:SpacetimeExtent ies_top:powertype ies_top:SetOfSpacetimeExtents . 
 ies_top:State rdf:type rdfs:Class . 

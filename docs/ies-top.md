@@ -130,10 +130,10 @@ And for Tuple:
 Nevertheless, most work in physics, including General Relativity, represents spacetime as a smooth four-dimensional manifold. Since the principal applications of IES are situated within such spacetimes, IES-Top explicitly distinguishes between <i>SpacetimeExtent</i> in general and <i>RegularSpacetimeExtent</i>, whose underlying spacetime satisfies these regularity conditions.
 &nbsp;
 <ul>
-	<li><b>SpacetimeExtent </b>- a spatiotemporal extent aka. a four-dimensional extent.</li>
+	<li><b>SpacetimeExtent </b>- a spatiotemporal extent.</li>
 </ul>
 <ul>
-	<li><b>RegularSpacetimeExtent </b>- a spacetime extent which is part of a world which is a smooth four-dimensional manifold (a universe).</li>
+	<li><b>RegularSpacetimeExtent </b>- a spacetime extent which is part of a world which is a smooth four-dimensional manifold (a universe). This is sometimes referred to as a four-dimensional extent.</li>
 	<li><b>Universe</b> - a regular spacetime world i.e., one with a smooth four-dimensional manifold.</li>
 </ul>
 <ul>
@@ -384,7 +384,7 @@ An rdf:type relation that asserts one set is the powerset of the other (see Cant
 
 
 ### <a id="dcb3f671-0fa3-4de6-b037-a011c432a087"></a>RegularSpacetimeExtent
-A spacetime extent which is part of a world which is a smooth four-dimensional manifold (a universe).
+A spacetime extent which is part of a world which is a smooth four-dimensional manifold (a universe). This is sometimes referred to as a four-dimensional extent.
 
 ### <a id="5cc94004-05d7-45ec-a5c8-56cffe8a3a39"></a>relationship
 A couple between any two regular spacetime extents.
@@ -445,7 +445,7 @@ The powertype of SpacetimeExtent. An instance of this is a set that contains spa
 The powertype of State. An instance of this is a set that contains states.
 
 ### <a id="77bb5948-c5bf-4cc2-b6dc-b7ffe413adf5"></a>SpacetimeExtent
-A spatiotemporal extent aka. a four-dimensional extent.
+A spatiotemporal extent.
 
 
 ### <a id="885fc001-7738-47ab-8870-30d004a57180"></a>State
