@@ -11,7 +11,7 @@
 IES-Top is an RDF top-level ontology which is based on the BORO™ Foundational Ontology [1] and grounded in Extensional 4-Dimensionalism. It is also grounded in Pluralities [2], the Pluriverse and Constructionalism [3] (see the Core Constructional Ontology [4]).
 
 Important artefacts include:
-- [Briefing pack (start here)](./docs/IES_Top_and_Core_Release_Candidate_1-Briefing_Pack_v1.0.pdf)
+- [Briefing pack (start here)](./docs/IES_Top_Release_Candidate_2-Briefing_Pack_v1.0.pdf)
 - [RDF serialisation of the ontology](./spec/ies-top.ttl)
 - [Accompanying documentation](./docs/ies-top.md)
 - [A document detailing the conceptual foundations of ies-top](./docs/IES_ToLO_Report.pdf)
