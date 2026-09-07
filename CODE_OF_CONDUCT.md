@@ -57,11 +57,12 @@ This Code of Conduct applies to all interactions in Information Exchange Standar
 - Discussions with maintainers  
 - Any other interactions in public IES projects  
 
----  
+---
 
-**Maintained as part of the Information Exchange Standard initiative.**  
+**Maintained as part of the Information Exchange Standard initiative.**
 
-© Crown Copyright 2025. This work is currently under the custodianship of the Department for Business and Trade (UK), acting on behalf of a cross-government group of stakeholders.  
-Licensed under the Open Government Licence v3.0.  
+© Crown Copyright. This work forms part of the Information Exchange Standard initiative and is currently under the custodianship of the UK's Department for Business, Innovation, Science and Trade (BIST), acting on behalf of a cross-government group of stakeholders.
+  
+Licensed under the Open Government Licence v3.0.
 
-For full licensing terms, see [OGL_LICENSE.md](OGL_LICENSE.md).  
+For full licensing terms, see [OGL_LICENSE.md](OGL_LICENSE.md).
