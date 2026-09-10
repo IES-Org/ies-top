@@ -36,4 +36,11 @@ This repository contains both source code and documentation, each released under
 By contributing to this repository, you agree that your contributions will be licensed under these terms.
 
 ---
-© Crown Copyright 2025.
+
+**Maintained as part of the Information Exchange Standard initiative.**
+
+© Crown Copyright. This work forms part of the Information Exchange Standard initiative and is currently under the custodianship of the UK's Department for Business, Innovation, Science and Trade (BIST), acting on behalf of a cross-government group of stakeholders.
+  
+Licensed under the Open Government Licence v3.0.
+
+For full licensing terms, see [OGL_LICENSE.md](OGL_LICENSE.md).
