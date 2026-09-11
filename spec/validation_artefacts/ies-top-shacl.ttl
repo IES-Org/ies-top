@@ -1,0 +1,255 @@
+# baseURI: http://purl.org/ies/top/v0/ont
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix ies_top: <http://purl.org/ies/top/v0/ont/> .
+@prefix ies_top_sh: <http://purl.org/ies/top/v0/shapes/> .
+
+ies_top_sh:connectedDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:connected ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:connectedRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:connected ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:coupleDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:couple ;
+    sh:class ies_top:Thing ;
+    sh:severity sh:Warning .
+
+ies_top_sh:coupleRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:couple ;
+    sh:class ies_top:Thing ;
+    sh:severity sh:Warning .
+
+ies_top_sh:disconnectedDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:disconnected ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:disconnectedRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:disconnected ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:ExtentShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:FourPlaceTupleShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:FourPlaceTuple ;
+    sh:severity sh:Warning .
+
+ies_top_sh:inDisjointRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:inDisjoint ;
+    sh:class ies_top:SetOfDisjointExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:inDisjointDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:inDisjoint ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:inOverlapRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:inOverlap ;
+    sh:class ies_top:SetOfOverlappingExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:inOverlapDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:inOverlap ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:IntermittentTimespanShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:IntermittentTimespan ;
+    sh:severity sh:Warning .
+
+ies_top_sh:intersectionOfDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:intersectionOf ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:intersectionOfRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:intersectionOf ;
+    sh:class ies_top:SetOfOverlappingExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:isPartOfRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:isPartOf ;
+    sh:class ies_top:State ;
+    sh:severity sh:Warning .
+
+ies_top_sh:isPartOfDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:isPartOf ;
+    sh:class ies_top:State ;
+    sh:severity sh:Warning .
+
+ies_top_sh:partWholeRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:partWhole ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:partWholeDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:partWhole ;
+    sh:class ies_top:Extent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:PeriodShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:Period ;
+    sh:severity sh:Warning .
+
+ies_top_sh:RegularSpacetimeExtentShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:RegularSpacetimeExtent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:relationshipRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:relationship ;
+    sh:class ies_top:RegularSpacetimeExtent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:relationshipDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:relationship ;
+    sh:class ies_top:RegularSpacetimeExtent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:relationshipBetweenStatesRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:relationshipBetweenStates ;
+    sh:class ies_top:State ;
+    sh:severity sh:Warning .
+
+ies_top_sh:relationshipBetweenStatesDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:relationshipBetweenStates ;
+    sh:class ies_top:State ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SelfConnectedStateShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SelfConnectedState ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SelfConnectedWorldboundExtentShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SelfConnectedWorldboundExtent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SelfDisconnectedStateShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SelfDisconnectedState ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SelfDisconnectedWorldboundExtentShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SelfDisconnectedWorldboundExtent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:Set ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfDisjointExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfDisjointExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfOverlappingExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfOverlappingExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfRegularSpacetimeExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfRegularSpacetimeExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfSetOfExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfSetOfExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfSetOfRegularSpacetimeExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfSetOfRegularSpacetimeExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfSetOfSpacetimeExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfSetOfSpacetimeExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfSetOfStatesShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfSetOfStates ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfSpacetimeExtentsShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfSpacetimeExtents ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SetOfStatesShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SetOfStates ;
+    sh:severity sh:Warning .
+
+ies_top_sh:SpacetimeExtentShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:SpacetimeExtent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:StateShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:State ;
+    sh:severity sh:Warning .
+
+ies_top_sh:StuffShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:Stuff ;
+    sh:severity sh:Warning .
+
+ies_top_sh:TemporallyIntermittentStateShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:TemporallyIntermittentState ;
+    sh:severity sh:Warning .
+
+ies_top_sh:TemporallyUninterruptedStateShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:TemporallyUninterruptedState ;
+    sh:severity sh:Warning .
+
+ies_top_sh:ThingShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:Thing ;
+    sh:severity sh:Warning .
+
+ies_top_sh:ThreePlaceTupleShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:ThreePlaceTuple ;
+    sh:severity sh:Warning .
+
+ies_top_sh:TimespanShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:Timespan ;
+    sh:severity sh:Warning .
+
+ies_top_sh:TransworldExtentShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:TransworldExtent ;
+    sh:severity sh:Warning .
+
+ies_top_sh:TupleShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:Tuple ;
+    sh:severity sh:Warning .
+
+ies_top_sh:tuplePlaceDomainShape rdf:type sh:NodeShape ;
+    sh:targetSubjectsOf ies_top:tuplePlace ;
+    sh:class ies_top:Tuple ;
+    sh:severity sh:Warning .
+
+ies_top_sh:tuplePlaceRangeShape rdf:type sh:NodeShape ;
+    sh:targetObjectsOf ies_top:tuplePlace ;
+    sh:class ies_top:Thing ;
+    sh:severity sh:Warning .
+
+ies_top_sh:UniverseShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:Universe ;
+    sh:severity sh:Warning .
+
+ies_top_sh:WorldShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:World ;
+    sh:severity sh:Warning .
+
+ies_top_sh:WorldboundExtentShape rdf:type sh:NodeShape ;
+    sh:targetClass ies_top:WorldboundExtent ;
+    sh:severity sh:Warning .

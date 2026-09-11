@@ -1,9 +1,9 @@
-@prefix ies_top: <http://ies.data.gov.uk/ontology/ies5/top#> .
-@prefix ies_core: <http://ies.data.gov.uk/ontology/ies5/core#> .
+@prefix ies_top: <http://purl.org/ies/top/v0/ont/> .
+@prefix ies_top_sh: <http://purl.org/ies/top/v0/shapes/> .
 @prefix sh:  <http://www.w3.org/ns/shacl#> .
 
 # This makes sure that the URIs of ies_top:Powersets are minted inline with the consistent pattern of SetOf..., SetOfSetOf... etc.
-ies_top:PowerSetShape a sh:NodeShape ;
+ies_top_sh:PowerSetShape a sh:NodeShape ;
     sh:targetSubjectsOf ies_top:powertype ;
     sh:sparql [
         a sh:SPARQLConstraint ;
