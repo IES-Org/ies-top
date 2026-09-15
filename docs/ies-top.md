@@ -217,7 +217,7 @@ E.g. for the tuples that are members of <i>Father-Son Tuples, </i>you recover th
 &lt;father_1, son_1&gt;
 Another example is the tuples that are members of the <i>Between Tuples</i>:
 &lt;endpoint_1, midpoint_x, endpoint_2&gt;
-For IES4, we avoided higher arity Tuples as the vast majority of what users want to articulate are two-placed tuples aka. Couples. Couples were realised using simple RDF properties and this will be the same in ies-top. However, in ies-top we want to have a solid and complete top-level and that means having tuples that are beyond 2 places. As a result, we will support 2-placed tuples using the user-friendly RDF properties and beyond-2 placed tuples using the RDF N-ary approach.
+For IES4, we avoided higher arity Tuples as the vast majority of what users want to articulate are two-placed tuples aka. Couples. Couples were realised using simple OWL object-properties and this will be the same in ies-top. However, in ies-top we want to have a solid and complete top-level and that means having tuples that are beyond 2 places. As a result, we will support 2-placed tuples using the user-friendly OWL object-properties and beyond-2 placed tuples using the RDF N-ary approach.
 ies-top provides in its base serialization tuples of up to four places. If users need tuples with more than four places, they should define them within the ies-top namespace, following the established naming conventions shown here for the Tuple classes and the tuple place properties. For example, a seven-place tuple shall have the URI <i>ies_top:SevenPlaceTuple</i>, while the additional tuple places needed shall be defined as <i>ies_top:tuplePlace_5</i>, <i>ies_top:tuplePlace_6</i>, and <i>ies_top:tuplePlace_7</i>.
 
 ## <a id="33ad9371-11c1-4df5-9edc-a2310eaf6cd9"></a>Relationships
@@ -239,7 +239,7 @@ ies-top provides in its base serialization tuples of up to four places. If users
 * [Timespan](#b9900e87-e85c-4378-8afe-d3a5ef0168a0)
 * [Universe](#6dc85ae1-ca5e-4fd1-8b67-afd244d1d01d)
 
-A relation between two things in IES, is a two-placed tuple aka. a couple. Couples are implemented as simple RDF properties.
+A relation between two things in IES, is a two-placed tuple aka. a couple. Couples are implemented as simple OWL object-properties.
 
 As with the mereological relations, IES-Top provides couple relations at several levels of generality, drawing the same world-bound distinctions: <b><i>relationship</i></b> is a couple between any two regular spacetime extents - whether or not they are universe-bound. <b><i>relationshipBetweenStates</i></b> narrows this to universe-bound extents (states), and <b><i>relationshipBetweenUniverseMates</i></b> narrows it further to states belonging to the same universe (universe-mates).
 
@@ -330,7 +330,7 @@ A precedence relation between universe-mates where one lies ahead of the other i
 A couple relation between two extents that are in contact, meeting with no gap between them. This couple relation is symmetric.
 
 ### <a id="85feafd9-50a0-42ea-9cc7-8dc7b055f47b"></a>couple
-A two placed tuple. Realized in RDF as an rdf:property. 
+A two placed tuple. Realized in RDF as an owl:ObjectProperty. 
 
 ### <a id="ff5a8319-5d38-478d-a982-b4f90b41f97a"></a>disconnected
 A couple relation between two extents that are not in contact, i.e., they are separated by a gap. This couple relation is symmetric.
@@ -343,7 +343,7 @@ A Tuple with four places.
 
 
 ### <a id="45345e32-79b0-4d24-8424-2531acdf691a"></a>groundingRelation
-A Thing which is one of the four basic relationships between two Things. Realized in RDF as a rdf:property.
+A Thing which is one of the four basic relationships between two Things. Realized in RDF as an owl:ObjectProperty.
 
 ### <a id="45765024-5f7b-4f82-a87b-99b174b3c4ce"></a>inDisjoint
 A type relation that asserts membership to a set of disjoint extents.
